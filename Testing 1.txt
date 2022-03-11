@@ -1,2 +1,4 @@
 Trying to tranfer git repo to another repo.
 test 1
+
+when changing something and commit
