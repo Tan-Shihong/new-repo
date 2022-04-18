@@ -1,0 +1,23 @@
+* D:\UM\YEAR 2\SEM 2\KIE2001\E1\Open ended.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Apr 12 15:58:15 2022
+
+
+
+** Analysis setup **
+.ac DEC 200 1 35k
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Open ended.net"
+.INC "Open ended.als"
+
+
+.probe
+
+
+.END
